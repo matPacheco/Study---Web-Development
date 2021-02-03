@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cadastrar Restaurante</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center" id="first-row">
+            <div class="row">
+                <fieldset class="fieldset-border">
+                    <form action="">
+                        <div class="col" style="margin-top: 10px;">
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="inputNomeOficial">Nome Oficial</label>
+                                        <input type="text" class="form-control" id="inputNomeOficial" required>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="inputNomeFantasia">Nome Fantasia</label>
+                                        <input type="text" class="form-control" id="inputNomeFantasia">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="inputCNPJ">CNPJ</label>
+                                        <input type="text" class="form-control" id="inputCNPJ">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="inputCEP">CEP</label>
+                                        <input type="text" class="form-control" id="inputCEP">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="inputNum">Número</label>
+                                        <input type="text" class="form-control" id="inputNum">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="inputComplemento">Complemento</label>
+                                        <input type="text" class="form-control" id="inputComplemento">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="inputCidade">Cidade</label>
+                                        <input type="text" class="form-control" id="inputCidade">
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <label for="select-estado">Estado</label>
+                                    <select class="custom-select" id="select-estado">
+                                        <option selected>Selecione o estado</option>
+                                        <option value="Acre">Acre</option>
+                                        <option value="Alagoas">Alagoas</option>
+                                        <option value="Amapá">Amapá</option>
+                                        <option value="Amazonas">Amazonas</option>
+                                        <option value="Bahia">Bahia</option>
+                                        <option value="Ceará">Ceará</option>
+                                        <option value="Distrito Federal">Distrito Federal</option>
+                                        <option value="Espírito Santo">Espírito Santo</option>
+                                        <option value="Goiás">Goiás</option>
+                                        <option value="Maranhão">Maranhão</option>
+                                        <option value="Mato Grosso">Mato Grosso</option>
+                                        <option value="Mato Grosso do Sul">Mato Grosso do Sul</option>
+                                        <option value="Minas Gerais">Minas Gerais</option>
+                                        <option value="Pará">Pará</option>
+                                        <option value="Paraíba">Paraíba</option>
+                                        <option value="Paraná">Paraná</option>
+                                        <option value="Pernambuco">Pernambuco</option>
+                                        <option value="Piauí">Piauí</option>
+                                        <option value="Rio de Janeiro">Rio de Janeiro</option>
+                                        <option value="Rio Grande do Norte">Rio Grande do Norte</option>
+                                        <option value="Rio Grande do Sul">Rio Grande do Sul</option>
+                                        <option value="Rondônia">Rondônia</option>
+                                        <option value="Roraima">Roraima</option>
+                                        <option value="Santa Catarina">Santa Catarina</option>
+                                        <option value="São Paulo">São Paulo</option>
+                                        <option value="Sergipe">Sergipe</option>
+                                        <option value="Tocantins">Tocantins</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="select-estado">Horário de abertura durante semana</label>
+                                        <select class="custom-select" id="select-abertura-semana">
+                                            <option selected>Selecione o horário de abertura</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="select-estado">Horário de fechamento durante semana</label>
+                                        <select class="custom-select" id="select-fechamento-semana">
+                                            <option selected>Selecione o horário de abertura</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="select-estado">Horário de abertura durante final de semana</label>
+                                        <select class="custom-select" id="select-abertura-semana">
+                                            <option selected>Selecione o horário de abertura</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-group">
+                                        <label for="select-estado">Horário de fechamento durante final de semana</label>
+                                        <select class="custom-select" id="select-fechamento-semana">
+                                            <option selected>Selecione o horário de abertura</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row justify-content-around">
+                                <button type="submit" class="btn btn-primary">Confirmar</button>
+                            </div>
+                        </div>
+                    </form>
+
+
+                </fieldset>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+        </script>
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+
+            </script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+
+            </script>
+        <script src="script.js">
+
+        </script>
+</body>
+
+</html>

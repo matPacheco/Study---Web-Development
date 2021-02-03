@@ -1,0 +1,71 @@
+html, body {
+    height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+}
+
+hr {
+    color: solid grey;
+}
+
+.main-fieldset {
+    width: 100%;
+    /* max-width: 330px; */
+    padding: 15px;
+    margin: auto;
+}
+
+.card {
+    width: 15rem;
+    margin-left: 100px;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.material-icons {
+    color: green;
+}
+
+.btnIcons {
+    background-color: transparent;
+    border: none;
+    position: relative;
+    top: 5px;
+}
+
+.btnIcons:focus {
+    outline: none;
+}
+
+.transparent-inputs {
+    border: none;
+    background-color: transparent;
+    max-width: 30px;
+    text-align: center;
+}
+
+.centered-columns {
+    padding-top: 50px;
+}
+
+.hidden-li {
+    display: none !important;
+}
+
+.spanQuantity {
+    color: green;
+}
+
+.select-categoria {
+    max-width: 300px;
+}
